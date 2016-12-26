@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.scrollviewgroup.libs.DiscrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.scrollviewgroup.MainActivity">
+
+    <com.example.scrollviewgroup.libs.DiscrollViewContent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/white"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="We get married"
+            android:textColor="@android:color/black"
+            android:textSize="62sp"/>
+
+        <TextView
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="从前不知道永远是什么,直到某天沦陷于你的温柔,人群中只有你最叫我感动,单膝跪地请嫁给我吧!!!"
+            android:textSize="18sp"/>
+
+        <ImageView
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromLeft|fromBottom"
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/cheese1"/>
+
+        <TextView
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="我们的小幸福, 不用全世界祝福,两个人在一起就满足,为你披上婚纱"
+            android:textSize="18sp"/>
+
+        <ImageView
+            discrollve:discrollve_translation="fromRight"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/cheese2"/>
+
+        <TextView
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="请你嫁给我吧"
+            android:textSize="18sp"/>
+
+        <ImageView
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@mipmap/ilovecheese_heart"/>
+    </com.example.scrollviewgroup.libs.DiscrollViewContent>
+
+</com.example.scrollviewgroup.libs.DiscrollView>
